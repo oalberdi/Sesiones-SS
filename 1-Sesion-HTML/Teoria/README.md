@@ -7,7 +7,7 @@ Vamos a realizar un pequeño repaso importante para un buen marcado semántico y
 Documentos de referencia para:
 
 1. Sintaxis html en detalle [HTML syntax](http://w3c.github.io/html-reference/syntax.html).
-2. índice de elementos HTML organizados en grupos de acuerdo con la función [HTML elements organized by function](http://w3c.github.io/html-reference/elements-by-function.html).
+2. Índice de elementos HTML organizados en grupos de acuerdo con la función [HTML elements organized by function](http://w3c.github.io/html-reference/elements-by-function.html).
 3. Elementos agrupados por "Modelos de contenido" comunes [Common content models](http://w3c.github.io/html-reference/common-models.html).
 4. Atributos comunes a todos los elementos HTML [Global attributes](http://w3c.github.io/html-reference/global-attributes.html).
 
@@ -59,6 +59,10 @@ Cada elemento HTML pertenece a cero, uno o varios modelos de contenido, cada uno
 Tipos de contenido "Content Model - Kind of content"
 * [Referencia del W3C](http://w3c.github.io/html/dom.html#kinds-of-content)
 * [Referencia del WHATWG](https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content)
+
+## PRÁCTICA
+
+Vamos a analizar diferentes diseños y estructuras de websites reales y catalogaremos los contenidos en los elementos correspondientes.
 
 
 

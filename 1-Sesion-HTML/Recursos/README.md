@@ -12,7 +12,7 @@ Actualmente hay dos organismos que las desarrollan y por eso hay dos versiones.
 ### 1 - W3C (World Wide Web Consortium)
 * [Versión del W3C](https://www.w3.org/TR/html/) en inglés
 * El [W3C](http://www.w3c.es/), Mantiene las especificaciones originales de HTML Y CSS, así como otros estándares relacionados con la web como son [SVG](https://www.w3.org/Graphics/SVG/) (Scalable Vector Graphics) y [WCAG](https://www.w3.org/WAI/intro/wcag) (Web Content Accessibility Guidelines).
-* Actualmente la versión [HTML5.2](http://w3c.github.io/html/) se ha publicado como borrador el 18 de Abril 2017.
+* La versión [HTML5.2](http://w3c.github.io/html/) se ha publicado como borrador el 18 de Abril 2017.
 
 
 ### 2 - WHATWG (Web Hypertext Application Technology Working Group)
@@ -41,7 +41,7 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [Can I use](http://caniuse.com/)
 * [HTML5 Please](http://html5please.com/)
 
-### Developer tools de los principales navegadores (Tecla F12)
+### Developer tools de los principales navegadores 
 * [Chrome Dev Tools](https://developer.chrome.com/devtools)
 * [Firefox Dev Tools](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox#Toolbox_controls)
 * [Microsoft Dev Tools](https://msdn.microsoft.com/en-us/library/gg589512(v=vs.85).aspx)
@@ -64,7 +64,7 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [HTML Reference](http://htmlreference.io/)
 * [CSS Reference](http://cssreference.io/)
 
-### Testeo en diferentes navegadores y dispositivos
+### Testeo del website en diferentes navegadores y dispositivos
 * [Browserstack](https://www.browserstack.com/)
 * [Responsinator](https://www.responsinator.com/)
 * [Mattkersley](http://mattkersley.com/responsive/)
@@ -75,3 +75,19 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [Grunt](https://gruntjs.com/)
 * [Brunch](http://brunch.io/)
 * [Webpack](http://webpack.github.io/)
+
+## Boilerplates y Frameworks
+
+### Boilerplates 
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [Web Started Kit](https://developers.google.com/web/tools/starter-kit/)
+* [MUI](https://www.muicss.com/)
+
+### Frameworks
+* [Bootstrap](http://getbootstrap.com/)
+* [Foundation](http://foundation.zurb.com/)
+* [Materialize](http://materializecss.com/)
+* [Material Design Lite](https://getmdl.io/)
+
+
+
