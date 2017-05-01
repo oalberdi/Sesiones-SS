@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+<h1>Ejemplos de elementos de contenido básicos</h1>
+
+<h2>Listados</h2>
+
+<h3>Listas desordenadas</h3>
+
+<ul>
+   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+   <li>Aliquam tincidunt mauris eu risus.</li>
+   <li>Vestibulum auctor dapibus neque.
+	   		<!-- lista anidada dentro del elemento li -->
+	   		<ul>
+	   			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+	   			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+	   			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+	   		</ul>
+   	</li>
+   <li>Ut enim ad minim veniam</li>
+   <li>Duis aute irure dolor in reprehenderit</li>
+</ul>
+
+
+<h3>Listas ordenadas</h3>
+
+<ol>
+   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+   <li>Aliquam tincidunt mauris eu risus.
+	   		<ol>
+	   			<li>Aliquam tincidunt mauris eu risus.</li>
+	   			<li>Aliquam tincidunt mauris eu risus.</li>
+	   			<li>Aliquam tincidunt mauris eu risus.</li>
+	   		</ol>
+   </li>
+   <li>Vestibulum auctor dapibus neque.</li>
+</ol>
+
+
+<h3>Listas de definición</h3>
+
+<dl>
+   <dt>Definition list</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+   <dt>Lorem ipsum dolor sit amet</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+</dl>
+
+<h2>Párrafos y etiquetas de texto</h2>
+	       
+<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+<h3>Encabezado de nivel 3</h3>
+
+<h3>Encabezado de nivel 4</h3>
+
+<h5>Encabezado de nivel 5</h5>
+
+<h6>Encabezado de nivel 6</h6>
+
+
+<h2>Imágenes e iframes</h2>
+
+<img src="http://www.soprasteria.es/Sitefinity/WebsiteTemplates/App_Themes/Sopra_Steria/css/i/sopra-steria.png" alt="Img description">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sEySDONQslI?list=PL11n95SGTcE0e0VKu3FCNncyJ7ne0WfTB" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Tabla</h2>
+
+<table summary="A summary of the content of the table">
+	<caption>table title</caption>
+	<thead>
+		<tr>
+			<th>Table header</th>
+			<th>Table header</th>
+			<th>Table header</th>
+			<th>Table header</th>
+			<th>Table header</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Formulario básico</h2>
+
+<form action="#" method="post">
+ <fieldset>
+ 	<legend>title or explanatory caption</legend>
+    <div>
+         <label for="name">Text Input:</label>
+         <input type="text" name="name" id="name" value="" tabindex="1" />
+    </div>
+    <div>
+         <h4>Radio Button Choice</h4>
+         <label for="radio-choice-1">Choice 1</label>
+         <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+		 			<label for="radio-choice-2">Choice 2</label>
+         <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+    </div>
+	<div>
+		<label for="select-choice">Select Dropdown Choice:</label>
+		<select name="select-choice" id="select-choice">
+			<option value="Choice 1">Choice 1</option>
+			<option value="Choice 2">Choice 2</option>
+			<option value="Choice 3">Choice 3</option>
+		</select>
+	</div>
+	<div>
+	    <label for="checkbox">Checkbox:</label>
+		<input type="checkbox" name="checkbox" id="checkbox" />
+    </div>
+		<div>
+	    <input type="submit" value="Submit" />
+    </div>
+</fieldset>
+</form>
+
+	
+</body>
+</html>

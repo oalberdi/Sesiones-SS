@@ -69,6 +69,9 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [Responsinator](https://www.responsinator.com/)
 * [Mattkersley](http://mattkersley.com/responsive/)
 
+### HTML Snippets
+* [htmlipsum](http://www.htmlipsum.com/)
+
 ### Automatizadores de tareas de desarrollo
 * [Gulp](http://gulpjs.com/)
 * [NPM](https://www.npmjs.com/)
