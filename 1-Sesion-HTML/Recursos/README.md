@@ -29,6 +29,8 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [Referencia HTML5 - W3C](https://www.w3.org/TR/html/)
 * [Referencia HTML - MDN](https://developer.mozilla.org/es/docs/Web/HTML/Referencia)
 * [w3School HTML5](https://www.w3schools.com/html/html5_intro.asp)
+* [w3School HTML5 New Elements](https://www.w3schools.com/html/html5_new_elements.asp)
+* [Migration from HTML4 to HTML5](https://www.w3schools.com/html/html5_migration.asp)
 
 
 ## Herramientas front
@@ -69,8 +71,9 @@ La especificación se ha dividido en módulos separados, cada uno con su propio 
 * [Responsinator](https://www.responsinator.com/)
 * [Mattkersley](http://mattkersley.com/responsive/)
 
-### HTML Snippets
+### HTML Snippets / Examples
 * [htmlipsum](http://www.htmlipsum.com/)
+* [HTML examples](https://www.w3schools.com/html/html_examples.asp)
 
 ### Automatizadores de tareas de desarrollo
 * [Gulp](http://gulpjs.com/)
