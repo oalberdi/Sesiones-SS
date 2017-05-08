@@ -1,4 +1,4 @@
-# 2ª Sesión - BOOTSTRAP Y CSS
+# 2ª Sesión - CSS Y GRID DE BOOTSTRAP
 
 Comportamiento y uso del mobile first flexbox grid system de bootstrap. 
 

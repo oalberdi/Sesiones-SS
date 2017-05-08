@@ -21,7 +21,10 @@
 [NuGet](https://www.nuget.org/packages/bootstrap/4.0.0-alpha5)
 
 
+css selectors playground (https://www.w3schools.com/cssref/trysel.asp)
 
 
+http://devdocs.io/css/
 
 
+http://cssspecificity.com/
