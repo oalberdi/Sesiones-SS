@@ -78,7 +78,7 @@ Sobre el uso del `!important` [Guía MDN](https://developer.mozilla.org/es/docs/
 
 # Evolución del CSS
 
-Frameworks y arquitectura CSS, Convenciones de nombrado "naming" , Preprocesadores, Pattern libraries, Design systems, ... y mucho más.
+Frameworks y arquitectura CSS, Convenciones de nombrado "naming", Preprocesadores, Pattern libraries, Design systems, Performance, Legacy, Hacks... y mucho más.
 
 
 

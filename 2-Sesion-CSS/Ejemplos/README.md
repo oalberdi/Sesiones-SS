@@ -1,2 +1,3 @@
 # Ejemplos
-Ejemplos de estructuras básicas de html
+
+[Grid de Bootstrap](http://getbootstrap.com/examples/grid/)
