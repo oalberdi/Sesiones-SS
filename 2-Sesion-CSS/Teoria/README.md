@@ -21,6 +21,7 @@ Regla de estilo: selector { propiedad: valor;}
 Hay dos mecanismos que intervienen en el aspecto final de un elemento, la **herencia** y la **cascada**. 
 
 ## Herencia
+
 Todos los elementos de un documento HTML heredan todas las propiedades heredables de su padre excepto el elemento raíz `html` (que no tiene progenitor)
 
 La importancia de este hecho es que cada elemento hereda las propiedades del elemento que lo contiene (llamado el elemento padre). Quiere decir que si especificamos la propiedad `color: red` para `<body>`, todos los elementos de la página heredarán esta característica y no será necesario especificar nuevamente la propiedad color en cada uno de ellos.
@@ -33,11 +34,11 @@ La cascada responde a esa pregunta, con los siguientes conceptos que controlan e
 
 El algoritmo en cascada determina cómo encontrar el valor a aplicar para cada propiedad para cada elemento de documento.
 
-### 1 Orden de las fuentes
+### 1 - Orden de las fuentes
 Primero filtra todas las reglas de las diferentes fuentes para mantener sólo las reglas que se aplican a un elemento dado. Esto significa reglas cuyo selector coincide con el elemento dado y que forman parte de una regla apropiada de medios.
 
 
-### 2 Importancia 
+### 2 - Importancia 
 Luego ordena estas reglas de acuerdo con su importancia, es decir, si son o no seguidas por `!important` y por su origen. La cascada está en orden ascendente, lo que significa que los valores `!important` de una hoja de estilo definida por el usuario tienen precedencia sobre los valores normales originados de una hoja de estilos de agente de usuario:
 
  Orden | Origen | Importancia
@@ -49,7 +50,7 @@ Luego ordena estas reglas de acuerdo con su importancia, es decir, si son o no s
 5 | user | !important 
 6 | user agent | !important
 
-### 3 Especificidad
+### 3 - Especificidad
 En caso de igualdad, se considera que la especificidad de un valor elige uno u otro.
 
 #### Selectores y especificidad
@@ -66,11 +67,18 @@ El selector Universal (*), combinadores (+, >, ~, ' ') y la pseudo-clase negaci�
 
 Los estilos inline añadidos a un elemento (p.e., `style="font-weight:bold"`) siempre sustituyen a cualquier estilo escrito en hojas de estilo externas, por lo que se puede pensar que tienen la mayor especificidad.
 
-Sobre el uso del !important [Guía MDN](https://developer.mozilla.org/es/docs/Web/CSS/Especificidad#La_excepción_!important)
+Sobre el uso del `!important` [Guía MDN](https://developer.mozilla.org/es/docs/Web/CSS/Especificidad#La_excepción_!important)
 
 *  Cuando aplicamos la regla `!important` rompemos la "cascada" natural de las hojas de estilo.
 *  Cuando se aplican dos declaraciones en conflicto con la regla `!important` al mismo elemento, se aplicará la declaración con mayor especificidad.
 *  Busca siempre una manera de emplear la especificidad antes de considerar el uso de !important.
+
+
+
+
+# Evolución del CSS
+
+Frameworks y arquitectura CSS, Convenciones de nombrado "naming" , Preprocesadores, Pattern libraries, Design systems, ... y mucho más.
 
 
 
