@@ -3,8 +3,7 @@
 
 Vamos a realizar un pequeño repaso importante para entender la base del CSS
 
-## CSS
-Documentos de referencia para:
+## Documentos de referencia
 
 1. W3C Cascading Style Sheets home page [CSS Overview](https://www.w3.org/Style/CSS/Overview.en.html).
 2. W3C Cascading Style Sheets articles and tutorials [CSS Learn & Use](https://www.w3.org/Style/CSS/learning).
@@ -21,7 +20,6 @@ Regla de estilo: selector { propiedad: valor;}
 
 ### Herencia y Cascada
 Hay dos mecanismos que intervienen en el aspecto final de un elemento, la herencia y la cascada. 
-
 
 
 #### Herencia
@@ -62,14 +60,19 @@ La siguiente lista de selectores se incrementa en función de la especificidad.
 1. - Selectores de clase (p.e., .user), selectores de atributos (p.e., [type="radio"]) y pseudo-clases (p.e., :hover).
 2. - Selectores de ID (p.e., #user).
 
-El selectore Universal (*), combinadores (+, >, ~, ' ') y la pseudo-clase negación (`:not()`) no tienen efectos sobre la especificidad. (Sin embargo, los selectores declarados dentro de :not() si lo tienen.)
+El selector Universal (*), combinadores (+, >, ~, ' ') y la pseudo-clase negación (`:not()`) no tienen efectos sobre la especificidad. (Sin embargo, los selectores declarados dentro de :not() si lo tienen.)
 
 Los estilos inline añadidos a un elemento (p.e., `style="font-weight:bold"`) siempre sustituyen a cualquier estilo escrito en hojas de estilo externas, por lo que se puede pensar que tienen la mayor especificidad.
 
-Sobre el uso del !important
+Sobre el uso del !important [Guía MDN](https://developer.mozilla.org/es/docs/Web/CSS/Especificidad#La_excepción_!important)
 
 1.- Cuando aplicamos la regla `!important` rompemos la "cascada" natural de las hojas de estilo.
 2.- Cuando se aplican dos declaraciones en conflicto con la regla `!important` al mismo elemento, se aplicará la declaración con mayor especificidad.
+3.- Busca siempre una manera de emplear la especificidad antes de considerar el uso de !important.
+
+
+
+
 
 
 
