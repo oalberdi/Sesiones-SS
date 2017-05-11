@@ -13,7 +13,11 @@
 * [Bootply](http://www.bootply.com/)
 
 ### Temas y plantillas
+* [Official Bootstrap themes](https://themes.getbootstrap.com/)
 * [Start Bootstrap](https://startbootstrap.com/)
+* [Bootstrap expo](http://expo.getbootstrap.com/)
+* [Bootstrap examples](http://getbootstrap.com/getting-started/#examples)
+
 
 ### Otros frameworks 
 * [Foundation](http://foundation.zurb.com/)
@@ -21,6 +25,9 @@
 * [Material Design Lite](https://getmdl.io/)
 * [Skeleton](http://getskeleton.com/)
 
+### Chrome developer tools - grid overlay
+* [Boootstrap grid overlay](https://chrome.google.com/webstore/detail/bootstrap-grid/gmoboekiodfcajledjijioecfimliddo)
+* [Measurement tools, rulers and grids](https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb)
 
 ## CSS
 
