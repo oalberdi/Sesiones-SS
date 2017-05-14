@@ -81,12 +81,37 @@ Sobre el uso del `!important` [Guía MDN](https://developer.mozilla.org/es/docs/
 Frameworks y arquitectura CSS, Convenciones de nombrado "naming", Preprocesadores, Pattern libraries, Design systems, Performance, Legacy, Hacks... y mucho más.
 
 
+# Grid Systems 
+
+Para una mejor estructura responsive de los sites, se utiliza un grid system.
+El grid o retícula, es una herramienta que se he utiliza en diseño gráfico y que se ha heredado en el diseño digital. Consiste en líneas horizontales y verticales que dividen el espacio y forman un grid o retícula. Esta retícula o grid, es una herramienta que facilita el diseño del layout. El layout o la composición, es la disposicion de lo elementos en ese espacio.
+
+Lo interesante es crear tu propio grid system para tus proyectos y reutilizarlo a través tus proyectos.
+
+## Cómo aplicamos un grid a nuestro site
+
+Como hemos comentado antes y aplicando el grid a nuestro site, podemos resumir que el grid consiste en una serie de filas y columnas. 
+¿Cúantas filas y columnas necesito para mi site? El número de filas es más claro, tantas como sea necesario para encajar por ejemplo: cabecera, menú, contenido y pie de página. 
+
+¿Y las columnas? Hay diferentes opiniones respecto a las columnas pero normalmente todas se basan en un número par, porque esto hace más sencillo dividir la página. Los números divisibles por tres son los más usados, [artículo que explica el por qúe](https://en.wikipedia.org/wiki/Golden_ratio). Los valores de columan más populares son 12, 16, 24.
+A su vez, el 12-column grid system es el más popular porque se puede dividir en una variedad de tamaños de uso cómún como la mitad, un tercio y un cuarto. 
+
+El grid lo creamos en nuestro css, definiendo el número de columnas que queramos que nuestros elementos abarquen.
+
+Las soluciones CSS más actuales para crear estos tipos layout son Flexbox y CSS Grid Layout.
+
+Flexbox o [The CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/), Es una parte reciente de la especificación CSS y ya goza de buen soporte de navegador. 
+Fue diseñado para proporcionar una solución más moderna para este tipo de layouts basados en grid, ofreciéndo funcionalidades específicas para la tarea.
+Utilizar Flexbox para nuestros componentes de página simplificará drásticamente nuestra estructura HTML y clases de CSS.
 
 
+Complementario a flexbox es el [CSS Grid Layout Module](https://www.w3.org/TR/css3-grid-layout/), que ayuda a definir y establecer las regiones de una página. 
+En el pasado, la principal solución para crear estructuras de sites "flexibles" era utilizar tablas para definir áreas de página con filas y columnas, pero éstas resultaban ser terribles para la accesibilidad. El "diseño de la retícula" o Grid Layout es algo así como una interpretación moderna de ese concepto.
 
 
+También podemos encontrar soluciones ya hechas, creadas por otros diseñadores y desarrolladores en Frameworks como Boostrap y Foundation entre otros.
+La valoración de uso entre uno u otro es saber cual ofrece mejore soluciones para el tipo de proyecto que se quiera realizar, ya que este tipo de frameworks no solo ofrecen soluciones de "responsive grid", sino que mucho vienen con elementos como fuentes, iconos y widgets reutilizables.
 
+El grid de Bootstrap
 
-
-
-
+Bootstrap utiliza un grid de 12 columnas y un layout en flexbox (en su versión alpha4).
