@@ -109,9 +109,10 @@ Complementario a flexbox es el [CSS Grid Layout Module](https://www.w3.org/TR/cs
 En el pasado, la principal solución para crear estructuras de sites "flexibles" era utilizar tablas para definir áreas de página con filas y columnas, pero éstas resultaban ser terribles para la accesibilidad. El "diseño de la retícula" o Grid Layout es algo así como una interpretación moderna de ese concepto.
 
 
-También podemos encontrar soluciones ya hechas, creadas por otros diseñadores y desarrolladores en Frameworks como Boostrap y Foundation entre otros.
+También podemos encontrar soluciones ya hechas, creadas por otros diseñadores y desarrolladores en Frameworks como **Bootstrap** y **Foundation** entre otros.
 La valoración de uso entre uno u otro es saber cual ofrece mejore soluciones para el tipo de proyecto que se quiera realizar, ya que este tipo de frameworks no solo ofrecen soluciones de "responsive grid", sino que mucho vienen con elementos como fuentes, iconos y widgets reutilizables.
 
-El grid de Bootstrap
+Vamos a ver el grid de Bootstrap 3 con ejemplos.
 
-Bootstrap utiliza un grid de 12 columnas y un layout en flexbox (en su versión alpha4).
+
+
