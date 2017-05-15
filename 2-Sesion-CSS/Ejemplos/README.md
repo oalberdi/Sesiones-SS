@@ -106,7 +106,7 @@ Prefijo class | Ancho del dispostivo
 Por defecto, todas las columnas no tienen un ancho definido, el valor por defecto es `width: auto`. 
 Con las media queries, Bootstrap añade el valor de ancho a cada class de columna.
 
-CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños por brevedad (xs, sm, md y lg):
+CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):
 
 ```
 	.col-*-12 { width: 100%; }
