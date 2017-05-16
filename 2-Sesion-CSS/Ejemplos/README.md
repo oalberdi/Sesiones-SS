@@ -11,6 +11,7 @@ El grid de Bootstrap consta de 3 elementos:
 El Grid system de Bootstrap necesita un contenedor para mantener filas y columnas. Un contenedor es un simple elemento `<div>` con una clase de `.container`. El contenedor se utiliza para proporcionar una anchura adecuada para el diseño, actuando como un envoltorio para el contenido.
 
 **Fixed layout**
+
 El elemento contenedor envuelve el contenido y establece los márgenes izquierdo y derecho. Tiene anchos fijos en dispositivos de diferentes tamaños, que se muestran en la siguiente tabla:
 
  Ancho dispositivo | Ancho del container | Media query
@@ -42,6 +43,7 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 
 
 **Fluid layout**
+
 El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el ancho del dispositivo. 
 
 *Código de ejemplo de un contenedor fluido*
