@@ -2,8 +2,8 @@
 
 El grid de Bootstrap consta de 3 elementos:
 1. Un contenedor principal `container`
-2. Filas `rows`
-3. Columnas `columns`
+2. Filas `row`
+3. Columnas `col`
 
 
 ## 1 - Cómo creamos el contenedor o "container"
@@ -33,10 +33,10 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 
 ```
 .container {
- padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
- padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
- margin-right: auto;  /* para centrar el contenido */
- margin-left: auto;   /* para centrar el contenido */
+  padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
+  padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
+  margin-right: auto;  /* para centrar el contenido */
+  margin-left: auto;   /* para centrar el contenido */
 }
 ```
 
@@ -56,10 +56,10 @@ El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el
 
 ```
 .container-fluid {
-padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
-padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
-margin-right: auto;  /* para centrar el contenido */
-margin-left: auto;   /* para centrar el contenido */
+  padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
+  padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
+  margin-right: auto;  /* para centrar el contenido */
+  margin-left: auto;   /* para centrar el contenido */
 }
 ```
 
@@ -75,7 +75,7 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 ```
 <div class="container-fluid">
  <div class="row">
-  Nuestro contenido
+   Nuestro contenido
  </div>
 </div>
 ```
@@ -84,8 +84,8 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 ```
 .row {
- margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
- margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+  margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+  margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
 }
 
 /* El margen negativo actúa como una envoltura para mantener las columnas, que pueden sumar hasta 12 en número */
@@ -111,18 +111,18 @@ Con las media queries, Bootstrap añade el valor de ancho a cada class de column
 *CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):*
 
 ```
-	.col-*-12 { width: 100%; }
-	.col-*-11 { width: 91.66666667%; }
-	.col-*-10 { width: 83.33333333%; }
-	.col-*-9 { width: 75%; }
-	.col-*-8 { width: 66.66666667%; }
-	.col-*-7 { width: 58.33333333%; }
-	.col-*-6 { width: 50%; }
-	.col-*-5 { width: 41.66666667%; }
-	.col-*-4 { width: 33.33333333%; }
-	.col-*-3 { width: 25%; }
-	.col-*-2 { width: 16.66666667%; }
-	.col-*-1 { width: 8.33333333%; }
+  .col-*-12 { width: 100%; }
+  .col-*-11 { width: 91.66666667%; }
+  .col-*-10 { width: 83.33333333%; }
+  .col-*-9 { width: 75%; }
+  .col-*-8 { width: 66.66666667%; }
+  .col-*-7 { width: 58.33333333%; }
+  .col-*-6 { width: 50%; }
+  .col-*-5 { width: 41.66666667%; }
+  .col-*-4 { width: 33.33333333%; }
+  .col-*-3 { width: 25%; }
+  .col-*-2 { width: 16.66666667%; }
+  .col-*-1 { width: 8.33333333%; }
 
 ```
 
@@ -186,4 +186,4 @@ nueva fila, para ayudar a corregir los problemas que se producen con alturas de 
 
 ## Ejemplos del Grid sytem de Bootstrap 3
 
-[Grid de Bootstrap](http://getbootstrap.com/examples/grid/)
+[Grid de Bootstrap](http://getbootstrap.com/examples/grid/) documentación oficial
