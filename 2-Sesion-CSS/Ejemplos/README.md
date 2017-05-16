@@ -125,7 +125,6 @@ Con las media queries, Bootstrap añade el valor de ancho a cada class de column
   .col-*-3 { width: 25%; }
   .col-*-2 { width: 16.66666667%; }
   .col-*-1 { width: 8.33333333%; }
-
 ```
 
 Por ejemplo: `.col-lg-6` tendrá un ancho de 50% en dispositivos de 1200px o superior (Large devices), pero cuando se vea en dispositivos "Medium", "Small" o "Extra small" el ancho por defecto es `width:auto` esto hace que las columnas se vean alineadas verticalmente.
