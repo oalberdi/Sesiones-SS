@@ -8,7 +8,7 @@ El grid de Bootstrap consta de 3 elementos:
 
 ## 1 - Cómo creamos el contenedor o "container"
 
-El Grid system de Bootstrap necesita un contenedor para mantener filas y columnas. Un contenedor es un simple elemento `<div>` con una clase de `.container`. El contenedor se utiliza para proporcionar una anchura adecuada para el diseño, actuando como un envoltorio para el contenido. El código es el siguiente:
+El Grid system de Bootstrap necesita un contenedor para mantener filas y columnas. Un contenedor es un simple elemento `<div>` con una clase de `.container`. El contenedor se utiliza para proporcionar una anchura adecuada para el diseño, actuando como un envoltorio para el contenido.
 
 **Fixed layout**
 El elemento contenedor envuelve el contenido y establece los márgenes izquierdo y derecho. Tiene anchos fijos en dispositivos de diferentes tamaños, que se muestran en la siguiente tabla:
