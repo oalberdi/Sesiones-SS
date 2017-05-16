@@ -1,16 +1,17 @@
-#Grid system de Bootstrap 3
+# Grid system de Bootstrap 3
 
 El grid de Bootstrap consta de 3 elementos:
-1.- Un contenedor principal `container`
-2.- Filas `rows`
-3.- Columnas `columns`
+1. Un contenedor principal `container`
+2. Filas `rows`
+3. Columnas `columns`
 
 
-## 1 - Cómo creamos el contenedor o `container`
+## 1 - Cómo creamos el contenedor o "container"
 
 El Grid system de Bootstrap necesita un contenedor para mantener filas y columnas. Un contenedor es un simple elemento `<div>` con una clase de `.container`. El contenedor se utiliza para proporcionar una anchura adecuada para el diseño, actuando como un envoltorio para el contenido. El código es el siguiente:
 
-** Fixed layout ** - El elemento contenedor envuelve el contenido y establece los márgenes izquierdo y derecho. Tiene anchos fijos en dispositivos de diferentes tamaños, que se muestran en la siguiente tabla:
+**Fixed layout**
+El elemento contenedor envuelve el contenido y establece los márgenes izquierdo y derecho. Tiene anchos fijos en dispositivos de diferentes tamaños, que se muestran en la siguiente tabla:
 
  Ancho dispositivo | Ancho del container | Media query
 -------------------| ------------------- | -----------
@@ -20,44 +21,45 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 1200px o superior | 1170px | @media (min-width: 1200px) { ... }
 
 
-* HTML de ejemplo de un contenedor de ancho fijo *
+*HTML de ejemplo de un contenedor de ancho fijo*
 
 ```
 <div class="container">
-		nuestro contenido 
+nuestro contenido 
 </div>
 ```
 
-* CSS del `.container`
+*CSS del `.container`*
 
 ```
 .container {
-	padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
-	padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
-	margin-right: auto;  /* para centrar el contenido */
-	margin-left: auto;   /* para centrar el contenido */
+padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
+padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
+margin-right: auto;  /* para centrar el contenido */
+margin-left: auto;   /* para centrar el contenido */
 }
 ```
 
 
-** Fluid layout ** - El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el ancho del dispositivo. 
+**Fluid layout**
+El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el ancho del dispositivo. 
 
-* Código de ejemplo de un contenedor fluido*
+*Código de ejemplo de un contenedor fluido*
 
 ```
 <div class="container-fluid">
-		nuestro contenido 
+nuestro contenido 
 </div>
 ```
 
-* CSS del `.container-fluid`*
+*CSS del `.container-fluid`*
 
 ```
 .container-fluid {
-	padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
-	padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
-	margin-right: auto;  /* para centrar el contenido */
-	margin-left: auto;   /* para centrar el contenido */
+padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
+padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
+margin-right: auto;  /* para centrar el contenido */
+margin-left: auto;   /* para centrar el contenido */
 }
 ```
 
@@ -68,22 +70,22 @@ Una fila actúa como una envoltura alrededor de las columnas. La fila anula el r
 
 Una fila se extiende desde el borde izquierdo hasta el borde derecho del elemento del contenedor. Se crea agregando la clase `.row` a un elemento de nivel de bloque dentro del contenedor. no hay límites en el número de filas que se pueden crear.
 
-* Código de ejemplo de una fila*
+*Código de ejemplo de una fila*
 
 ```
 <div class="container-fluid">
-		<div class="row">
-			Nuestro contenido
-		</div>
+	<div class="row">
+		Nuestro contenido
+	</div>
 </div>
 ```
 
-* CSS del `.container-fluid`* 
+*CSS del `.row`* 
 
 ```
 .row {
-	margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
-	margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
 }
 
 /* El margen negativo actúa como una envoltura para mantener las columnas, que pueden sumar hasta 12 en número */
@@ -91,22 +93,22 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 
 
-## 3 - Cómo creamos las columnas o `columns`
+## 3 - Cómo creamos las columnas o "columns"
 
 Bootstrap utiliza porcentajes (%) como unidad para definir los anchos de las columnas. Como hemos visto antes, hay 4 categorías diferentes de puntos de interrupción o breakpoints basados en dispositivos. Cada categoría establece clases para columnas de diferentes tamaños.
 
 
-Prefijo class | Ancho del dispostivo
---------------| -------------------
-.col-xs-* | Menor que 768px - Extra small (xs)
-.col-sm-* | Entre 768px y 991px - Small devices (sm)
-.col-md-* | Entre 992px y 1199px - Medium devices (md)
-.col-lg-* | 1200px o superior - Large devices (lg)
+Prefijo class | Ancho del dispostivo | Denominación
+--------------| ---------------------| ---------------
+.col-xs-* | Menor que 768px | Extra small (xs)
+.col-sm-* | Entre 768px y 991px | Small devices (sm)
+.col-md-* | Entre 992px y 1199px | Medium devices (md)
+.col-lg-* | 1200px o superior | Large devices (lg)
 
-Por defecto, todas las columnas no tienen un ancho definido, el valor por defecto es `width: auto`. 
-Con las media queries, Bootstrap añade el valor de ancho a cada class de columna.
+**Por defecto, todas las columnas no tienen un ancho definido, el valor por defecto es `width: auto`.
+Con las media queries, Bootstrap añade el valor de ancho a cada class de columna.**
 
-CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):
+*CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):*
 
 ```
 	.col-*-12 { width: 100%; }

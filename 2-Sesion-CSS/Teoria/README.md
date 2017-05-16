@@ -105,7 +105,7 @@ Fue diseñado para proporcionar una solución más moderna para este tipo de lay
 Utilizar Flexbox para nuestros componentes de página simplificará drásticamente nuestra estructura HTML y clases de CSS.
 
 
-Complementario a flexbox es el[**CSS Grid Layout Module**](https://www.w3.org/TR/css3-grid-layout/), que ayuda a definir y establecer las regiones de una página. 
+Complementario a flexbox es el [**CSS Grid Layout Module**](https://www.w3.org/TR/css3-grid-layout/), que ayuda a definir y establecer las regiones de una página. 
 En el pasado, la principal solución para crear estructuras de sites "flexibles" era utilizar tablas para definir áreas de página con filas y columnas, pero éstas resultaban ser terribles para la accesibilidad. El "diseño de la retícula" o **Grid Layout** es algo así como una interpretación moderna de ese concepto.
 
 
