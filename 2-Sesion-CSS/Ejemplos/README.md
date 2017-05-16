@@ -25,7 +25,7 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 
 ```
 <div class="container">
-nuestro contenido 
+ nuestro contenido 
 </div>
 ```
 
@@ -33,10 +33,10 @@ nuestro contenido
 
 ```
 .container {
-padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
-padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
-margin-right: auto;  /* para centrar el contenido */
-margin-left: auto;   /* para centrar el contenido */
+ padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
+ padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
+ margin-right: auto;  /* para centrar el contenido */
+ margin-left: auto;   /* para centrar el contenido */
 }
 ```
 
@@ -48,7 +48,7 @@ El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el
 
 ```
 <div class="container-fluid">
-nuestro contenido 
+ nuestro contenido 
 </div>
 ```
 
@@ -74,9 +74,9 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 ```
 <div class="container-fluid">
-	<div class="row">
-		Nuestro contenido
-	</div>
+ <div class="row">
+  Nuestro contenido
+ </div>
 </div>
 ```
 
@@ -84,8 +84,8 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 ```
 .row {
-margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
-margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+ margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
+ margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
 }
 
 /* El margen negativo actúa como una envoltura para mantener las columnas, que pueden sumar hasta 12 en número */
@@ -148,15 +148,15 @@ No hace falta declarar o crear ningún container.
     <div class="col-sm-6">
       <h1>Boostrap Grids Demo</h1>
         <!-- declaramos un row dentro de un col -->
-	      <div class="row">
-	          <!-- volvemos a declarar columnas -->
-		        <div class="col-sm-6">
-		          <h2>Nested</h2>
-		        </div>
-		        <div class="col-sm-6">
-		          <h2>Columns</h2>
-		        </div>
-	      </div>
+      <div class="row">
+          <!-- volvemos a declarar columnas -->
+        <div class="col-sm-6">
+          <h2>Nested</h2>
+        </div>
+        <div class="col-sm-6">
+          <h2>Columns</h2>
+        </div>
+      </div>
     </div>
     <div class="col-sm-6">
       <h1>Column 2</h1>
@@ -168,7 +168,7 @@ No hace falta declarar o crear ningún container.
 
 ### ¿Qué pasa si tengo más de 12 columnas?
 
-Un cálculo incorrecto al decifir el número de columnas virtuales, es una de las causas principales que rompen el layout de Bootstrap.
+Un cálculo incorrecto al decinir el número de columnas virtuales, es una de las causas principales que rompen el layout de Bootstrap.
 
 En tal caso, se creará una fila virtual y las columnas no adaptadas se desplazarán a la fila siguiente. Por ejemplo, si se han definido 2 columnas con las clases `.col-md-8` y `.col-md-5`, la segunda columna cambiará a una nueva fila porque requiere 5 columnas virtuales Bootstrap mientras que sólo quedan 4.
 
@@ -181,10 +181,9 @@ nueva fila, para ayudar a corregir los problemas que se producen con alturas de 
 
 * **Offsetting columns** o desplazamiento de columnas : No hay que ocupar las 12 columnas obligatoriamente. Se pueden usar clases de "desplazamiento" como `.col-xs-offset-*` o `.col-md-offset-*` para ocupar un número determinado de columnas "vacías" a la izquierda de cualquier columna.
 
-* Reordenar columnas: Para desplazar columnas a la derecha `push`, para desplazar a la izquierda `pull`.
+* **push y pull** para reordenar columnas: Para desplazar columnas a la derecha `push`, para desplazar a la izquierda `pull`.
 
 
-
-# Ejemplos del Grid sytem de Bootstrap 3
+## Ejemplos del Grid sytem de Bootstrap 3
 
 [Grid de Bootstrap](http://getbootstrap.com/examples/grid/)
