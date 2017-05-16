@@ -24,7 +24,7 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 
 *HTML de ejemplo de un contenedor de ancho fijo*
 
-```
+```html
 <div class="container">
  nuestro contenido 
 </div>

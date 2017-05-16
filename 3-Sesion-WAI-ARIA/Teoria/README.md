@@ -11,7 +11,8 @@ Una de las formas de utilizar ARIA es aplicándolo a nustro código html, ademá
 WAI-ARIA asigna **"roles"** a los elementos, y a esos roles les añade **propiedades** o **estados**
 
 *Ejemplo*
-```
+
+```html
   <li role="menuitemcheckbox" aria-checked="true">Sort by Date</li>
 ```
 
@@ -36,12 +37,13 @@ section |	region **cuando tiene un nombre accesible usando `aria-labelledby` o `
 
 *Ejemplos*
 
-```
+```html
 <div role="contentinfo">
     Este site está realizado por S. Fernández
 </div>
 ```
-```
+
+```html
 <div role="alert">
    Por favor actualice su navegador para una mejor experiencia de navegación
 </div>
@@ -54,7 +56,7 @@ section |	region **cuando tiene un nombre accesible usando `aria-labelledby` o `
 
 - El atributo `aria-label` se utiliza para definir una cadena que etiqueta el elemento actual. 
 
-```
+```html
  <button aria-label="Close" onclick="myDialog.close()">X</button>
 ```
 
@@ -62,7 +64,7 @@ section |	region **cuando tiene un nombre accesible usando `aria-labelledby` o `
 
 *Ejemplo radio group*
 
-```
+```html
 <div id="radio_label">My radio label</div>
 <ul role="radiogroup" aria-labelledby="radio_label">
     <li role="radio">Item #1</li>
