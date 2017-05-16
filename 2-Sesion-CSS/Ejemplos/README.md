@@ -32,7 +32,7 @@ Entre 992px y 1199px | 970px | @media (min-width: 992px) and (max-width: 1199px)
 
 *CSS del `.container`*
 
-```
+```css
 .container {
   padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
   padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
@@ -48,7 +48,7 @@ El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el
 
 *Código de ejemplo de un contenedor fluido*
 
-```
+```html
 <div class="container-fluid">
  nuestro contenido 
 </div>
@@ -56,7 +56,7 @@ El elemento contenedor es fluido, no tiene ancho fijo, su ancho será siempre el
 
 *CSS del `.container-fluid`*
 
-```
+```css
 .container-fluid {
   padding-right: 15px; /* para impedir que el contenido dentro del elemento toque el borde del navegador */
   padding-left: 15px;  /* para impedir que el contenido dentro del elemento toque el borde del navegador */ 
@@ -74,7 +74,7 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 *Código de ejemplo de una fila*
 
-```
+```html
 <div class="container-fluid">
  <div class="row">
    Nuestro contenido
@@ -84,7 +84,7 @@ Una fila se extiende desde el borde izquierdo hasta el borde derecho del element
 
 *CSS del `.row`* 
 
-```
+```css
 .row {
   margin-right: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
   margin-left: -15px; /* Para permitir que la fila toque el borde de su elemento contenedor */
@@ -112,7 +112,7 @@ Con las media queries, Bootstrap añade el valor de ancho a cada class de column
 
 *CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):*
 
-```
+```css
   .col-*-12 { width: 100%; }
   .col-*-11 { width: 91.66666667%; }
   .col-*-10 { width: 83.33333333%; }
@@ -144,7 +144,7 @@ No hace falta declarar o crear ningún container.
 
 *Código de ejemplo de un grid system anidado*
 
-```
+```html
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
