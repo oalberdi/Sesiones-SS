@@ -98,15 +98,15 @@ A su vez, el 12-column grid system es el más popular porque se puede dividir en
 
 El grid lo creamos en nuestro css, definiendo el número de columnas que queramos que nuestros elementos abarquen.
 
-Las soluciones CSS más actuales para crear estos tipos layout son Flexbox y CSS Grid Layout.
+**Las soluciones CSS más actuales para crear estos tipos layout son Flexbox y CSS Grid Layout.**
 
-Flexbox o [The CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/), Es una parte reciente de la especificación CSS y ya goza de buen soporte de navegador. 
+**Flexbox** o [The CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/), Es una parte reciente de la especificación CSS y ya goza de buen soporte de navegador. 
 Fue diseñado para proporcionar una solución más moderna para este tipo de layouts basados en grid, ofreciéndo funcionalidades específicas para la tarea.
 Utilizar Flexbox para nuestros componentes de página simplificará drásticamente nuestra estructura HTML y clases de CSS.
 
 
-Complementario a flexbox es el [CSS Grid Layout Module](https://www.w3.org/TR/css3-grid-layout/), que ayuda a definir y establecer las regiones de una página. 
-En el pasado, la principal solución para crear estructuras de sites "flexibles" era utilizar tablas para definir áreas de página con filas y columnas, pero éstas resultaban ser terribles para la accesibilidad. El "diseño de la retícula" o Grid Layout es algo así como una interpretación moderna de ese concepto.
+Complementario a flexbox es el[**CSS Grid Layout Module**](https://www.w3.org/TR/css3-grid-layout/), que ayuda a definir y establecer las regiones de una página. 
+En el pasado, la principal solución para crear estructuras de sites "flexibles" era utilizar tablas para definir áreas de página con filas y columnas, pero éstas resultaban ser terribles para la accesibilidad. El "diseño de la retícula" o **Grid Layout** es algo así como una interpretación moderna de ese concepto.
 
 
 También podemos encontrar soluciones ya hechas, creadas por otros diseñadores y desarrolladores en Frameworks como **Bootstrap** y **Foundation** entre otros.
