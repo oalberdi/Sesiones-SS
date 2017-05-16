@@ -112,7 +112,7 @@ Con las media queries, Bootstrap añade el valor de ancho a cada class de column
 
 *CSS de Bootstrap para las clases de columna con asteriscos que reemplazan los tamaños (xs, sm, md y lg):*
 
-```css
+```
   .col-*-12 { width: 100%; }
   .col-*-11 { width: 91.66666667%; }
   .col-*-10 { width: 83.33333333%; }
